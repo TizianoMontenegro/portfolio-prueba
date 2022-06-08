@@ -150,6 +150,10 @@ img{
 .main1 h1:hover > span{
     color: #fff;
 }
+.main1 ul{
+    list-styles: none;
+}
+
 .main2 img{
     max-height: 31.25em;
     width: 25em;
@@ -578,12 +582,10 @@ img{
 }
 @media (max-width:810px){
     .contacts-lback{
-        width: 8em;
-        height: 10em;
+        display: none;
     }
     .contacts-rback{
-        width: 8em;
-        height: 10em;
+        display: none;
     }
 }
 @media (max-width: 650px){
