@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrapper">
+        
+            <div class="transparent"></div>
+            <header class="header">
+                <div class="logo">M<span>M</span></div>
+                <label class="menu" for="menu"><i class='bx bx-menu'></i></label>
+                <input class="checkbox" id="menu" type="checkbox" name="button-menu">
+                <ul class="nav-container">
+                    <li class="nav-item"><a href="#" id="a-active">Inicio</a></li>
+                    <li class="nav-item"><a href="#about">Sobre Mi</a></li>
+                    <li class="nav-item"><a href="#portfolio">Proyectos</a></li>
+                    <li class="nav-item"><a href="#contacts">Contactos</a></li>
+                </ul>
+            </header>
+    
+            <main class="main-container">
+                <div class="main1">
+                    <h1>yo soy <span>Martin</span> <span>M</span>ontenegro</h1>
+                    <p>Y este es mi portfolio, espero que te guste</p>  
+                    <a class="descargar1" href="images/martin-perfil.png" download="martin-profile">
+                        Descargar Imagen
+                    </a> 
+                </div> 
+                <div class="main2">
+                    <img src="images/martin-perfil.png" alt="programmer">
+                </div>
+            </main>
+            <div class="down"><a href="#about">v</a></div>
+        </div>
+    
+        <div class="about" id="about">
+            <img src="images/martin-main.jpg" alt="perritos foto">
+            <div class="about-info">
+                <h1>Sobre Mi</h1>
+                <div class="divisor"></div>
+                <p>!!Hola!!, me llamo Martin, tengo 3 años, tengo un agresor que es TITAAAN, y programe Facebook y Twitter</p>
+                <h3>tecnologias</h3>
+                <ul class="about__ul">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript Junior</li>
+                </ul>
+                <a class="descargar2" href="images/martin-main.jpg" download="martin-about">
+                    Descargar imagen
+                </a>
+            </div>
+        </div>
+    
+        <div class="portfolio" id="portfolio">
+            <div class="portfolio__title">
+                <h1>Mi Portfolio</h1>
+                <div class="divisor2"></div>
+            </div>
+            <div class="proyects">
+                <div class="card">
+                    <div class="card__img">
+                        <img src="images/mortalkombat.png">
+                    </div>
+                    <div class="card__info">
+                        <h3>mortal kombat</h3>
+                        <p>fecha: 25/5/2022</p>
+                        <p>Quise recrear una pagina de mortal kombat</p>
+                        <a class="card__button" href="mortalkombat/index.html" target="_blank">visitar</a>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <div class="card__img">
+                        <img src="images/lite.png">
+                    </div>
+                    <div class="card__info">
+                        <h3>lite</h3>
+                        <p>fecha: 8/1/2022</p>
+                        <p>Quise recrear una pagina de Lite</p>
+                        <a class="card__button" href="lite/index.html" target="_blank">visitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="contacts" id="contacts">
+            <img class="contacts-lback" src="images/martin-contact.png" alt="martin">
+            <img class="contacts-rback" src="images/martin-contact.png" alt="martin">
+    
+            <div class="contacts__title">
+                <h1>Contactos</h1>
+                <div class="divisor3"></div>
+            </div>
+            
+            <div class="contact">
+                <div class="contact-container">
+                    <div class="form__title">
+                        <p>enviame un mensaje</p>
+                    </div>
+                    <form class="form contact-item">
+                        <input required type="text" name="nombre" placeholder="nombre y apellido">
+                        <input required type="email" name="apellido" placeholder="email">
+                        <textarea required name="mensaje" placeholder="escribi tu mensaje"></textarea>
+                        <button type="submit">enviar mensaje</button>
+                    </form>
+                    <div class="links contact-item">
+                        <a href="https://twitter.com/tznmonte-" target="_blank"><i class='bx bxl-twitter'></i> Twitter</a>
+                        <a href="https://www.facebook.com/tirateunpedo/-" target="_blank"><i class='bx bxl-facebook-square'></i> Facebook</a>
+                        <a href="https://github.com/tizielpro-" target="_blank"><i class='bx bxl-github'></i> Github</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <div class="footer">
+            <p>Gracias por visitar mi pagina</p>
+            <p class="footp">todos los derechos reservados: <span>Martin Montenegro</span></p>
+        </div>
+    </div>
+    <audio src="audio/Metallica_ Nothing Else Matters (Official Music Video)(MP3_320K).mp3" autoplay loop>
+        su navegador no es compatible con este audio
+    </audio>
+</body>
+</html>
